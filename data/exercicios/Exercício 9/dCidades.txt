@@ -1,0 +1,24 @@
+Id Cidade;Cidade;UF;Estado
+1;Cotia;SP;Sao Paulo
+2;Osasco;SP;Sao Paulo
+3;Itapevi;SP;Sao Paulo
+4;Guarulhos;SP;Sao Paulo
+5;Petrópolis;RJ;Rio de Janeiro
+6;Volta Redonda;RJ;Rio de Janeiro
+7;Rio De Janeiro;RJ;Rio de Janeiro
+8;Teresópolis;RJ;Rio de Janeiro
+9;Macaé;RJ;Rio de Janeiro
+10;Petrópolis;RJ;Rio de Janeiro
+11;Niterói;RJ;Rio de Janeiro
+12;Araruama;RJ;Rio de Janeiro
+13;Montes Claro;MG;Minas Gerais
+14;Contagem;MG;Minas Gerais
+15;Mariana;MG;Minas Gerais
+16;São Paulo;SP;Sao Paulo
+17;Tatuí;SP;Sao Paulo
+18;Limeira;SP;Sao Paulo
+19;Marília;SP;Sao Paulo
+20;Poços de Caldas;MG;Minas Gerais
+21;Belo Horizonte;MG;Minas Gerais
+22;Uberaba;MG;Minas Gerais
+23;Varginha;MG;Minas Gerais
