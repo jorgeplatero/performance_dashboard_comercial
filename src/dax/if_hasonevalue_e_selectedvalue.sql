@@ -1,4 +1,4 @@
-/*IF, HASONVALUE e SELECTEDVALUE*/
+/*IF, HASONEVALUE e SELECTEDVALUE*/
 /*-----------------------------------------------------*/
 
 Positivacao Clientes = IF(

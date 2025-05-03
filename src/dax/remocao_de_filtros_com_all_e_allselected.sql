@@ -20,8 +20,8 @@ Margem Contribuicao % = DIVIDE(
         [Faturamento],
         ALLSELECTED('fVendas')
     )
-) /*a função ALLSELECTED ignora apenas os filtros do visual em que foi aplicada, permitindo com
-a medida seja filtrada por filtros externos*/
+) /*a função ALLSELECTED ignora apenas os filtros do visual em que foi aplicada 
+no contexto informado, permitindo com a medida seja filtrada por filtros externos*/
 
 Margem Contribuicao Gerencia % = DIVIDE(
     [Faturamento],
@@ -30,4 +30,4 @@ Margem Contribuicao Gerencia % = DIVIDE(
         ALLSELECTED('dVendedores'[Vendedor])
     )
 ) /*ignora apenas os filtros no contexto "Vendedor" da tabela "dVendedores, mantendo
-os demais filtros externos ou internos"*/
+os demais filtros externos e internos"*/
