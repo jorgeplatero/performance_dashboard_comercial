@@ -1,1 +1,8 @@
-<svg width="255" height="65" viewBox="0 0 255 65" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="tabela_cidades"><line id="divisor" x1="127.5" y1="14" x2="127.5" y2="50" stroke="white" stroke-opacity="0.1"/>	<text id="txt_cidade" fill="#00FF00" xml:space="preserve" style="white-space: pre" font-family="Segoe UI" font-size="11" font-weight="600" letter-spacing="0em"><tspan x="28" y="34.0547">Minas Gerais</tspan></text><text id="txt_faturamento" fill="#FFFF00" xml:space="preserve" style="white-space: pre" font-family="Segoe UI" font-size="15" font-weight="600" letter-spacing="0em"><tspan x="155" y="26.2109">R$ 50,00</tspan></text><text id="txt_margem" fill="#FF0000" xml:space="preserve" style="white-space: pre" font-family="Segoe UI" font-size="15" font-weight="600" letter-spacing="0em"><tspan x="155" y="53.2109">00,00%</tspan></text></g></svg>
+<svg width="260" height="65" viewBox="0 0 260 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="tabela_cidades">
+<text id="texto_cidade" fill="white" xml:space="preserve" style="white-space: pre" font-family="Segoe UI" font-size="12" letter-spacing="0em"><tspan x="40" y="37.9688">Minas Gerais</tspan></text>
+<text id="texto_faturamento" fill="#F4F423" xml:space="preserve" style="white-space: pre" font-family="Segoe UI" font-size="12" letter-spacing="0em"><tspan x="143" y="25.9688">R$ 50,00</tspan></text>
+<text id="texto_margem" fill="#F22626" xml:space="preserve" style="white-space: pre" font-family="Segoe UI" font-size="12" letter-spacing="0em"><tspan x="143" y="50.9688">00,00%&#10;</tspan></text>
+<line id="linha" x1="129.5" y1="56" x2="129.5" y2="11" stroke="#B7A2C3"/>
+</g>
+</svg>
