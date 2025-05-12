@@ -143,3 +143,65 @@ RETURN
 	</g>    
 </svg>
 "
+
+
+/*Meta Cor*/
+/*-----------------------------------------------------*/
+Meta Cor = 
+VAR vPorcentagem = [Meta %]
+RETURN
+SWITCH(
+    TRUE(),
+    vPorcentagem >= 1, "#59b7c8",
+    vPorcentagem >= 0.81, "#897d2e",
+    "#c54339"
+)
+
+/*zMetricas*/
+/*-----------------------------------------------------*/
+
+Linha Anterior = [Faturamento LY]
+
+Linha Atual = 
+VAR vContexto = SELECTEDVALUE(zMetricas[Metrica])
+RETURN
+IF(
+    vContexto IN {"Atual", ""},
+    [Faturamento]
+)
+
+Seta Baixo Inferior = 
+VAR vContexto = SELECTEDVALUE(zMetricas[Metrica])
+VAR vAtual = [Faturamento]
+VAR vAnterior = [Faturamento LY]
+RETURN
+IF(
+    vContexto = "" && vAtual < vAnterior, vAtual
+)
+
+Seta Baixo Superior = 
+VAR vContexto = SELECTEDVALUE(zMetricas[Metrica])
+VAR vAtual = [Faturamento]
+VAR vAnterior = [Faturamento LY]
+RETURN
+IF(
+    vContexto = "" && vAtual < vAnterior, vAnterior
+)
+
+Seta Cima Superior = 
+VAR vContexto = SELECTEDVALUE(zMetricas[Metrica])
+VAR vAtual = [Faturamento]
+VAR vAnterior = [Faturamento LY]
+RETURN
+IF(
+    vContexto = "" && vAtual >= vAnterior, vAtual
+)
+
+Valor Contexto = 
+VAR vContexto = SELECTEDVALUE(zMetricas[Metrica])
+RETURN
+SWITCH(
+    TRUE(),
+    vContexto = "Atual", [Faturamento],
+    vContexto = "Anterior", [Faturamento LY]  
+)
