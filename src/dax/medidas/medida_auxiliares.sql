@@ -106,7 +106,7 @@ VAR vValorFormatado = SWITCH(
 VAR vMargem = FORMAT([Margem %], "0.00%")
 RETURN
 "
-<svg width='255' height='95' viewBox='0 0 260 65' fill='none' xmlns='http://www.w3.org/2000/svg'>
+<svg width='255' height='80' viewBox='0 0 260 65' fill='none' xmlns='http://www.w3.org/2000/svg'>
     <defs>
         <style>
             #texto_cidade {

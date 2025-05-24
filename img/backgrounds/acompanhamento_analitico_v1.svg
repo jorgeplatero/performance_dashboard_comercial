@@ -1,0 +1,23 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="acompanhamento_analitico_v1" clip-path="url(#clip0_56_47)">
+<rect width="1280" height="720" fill="#411C52"/>
+<line id="linha_menu" x1="24" y1="329.5" x2="185" y2="329.5" stroke="#C4C4C4" stroke-opacity="0.15"/>
+<line id="linha_menu_2" x1="211" x2="211" y2="720" stroke="#C4C4C4" stroke-opacity="0.15" stroke-width="2"/>
+<line id="linha_menu_3" x1="24" y1="138.5" x2="185" y2="138.5" stroke="#C4C4C4" stroke-opacity="0.15"/>
+<rect id="imagem_fundo" y="-185" width="1286" height="905"/>
+<g id="quadro">
+<rect x="230" y="70" width="1030" height="630" rx="10" fill="url(#paint0_linear_56_47)"/>
+<rect x="230.333" y="70.3334" width="1029.33" height="629.333" rx="9.66661" stroke="#59B7C8" stroke-opacity="0.3" stroke-width="0.666783"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_56_47" x1="230" y1="70" x2="370.656" y2="858.621" gradientUnits="userSpaceOnUse">
+<stop stop-color="#3F1260" stop-opacity="0.5"/>
+<stop offset="0.510417" stop-color="#3F1260" stop-opacity="0.5"/>
+<stop offset="1" stop-color="#3F1260" stop-opacity="0.3"/>
+</linearGradient>
+<clipPath id="clip0_56_47">
+<rect width="1280" height="720" fill="white"/>
+</clipPath>
+</defs>
+</svg>
